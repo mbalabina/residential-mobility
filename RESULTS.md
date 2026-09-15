@@ -2,9 +2,9 @@
 
 Full tables and figures for *Residential Mobility and Social Structure*.
 
-> ### ⚠️ Provenance
+> ###  Provenance
 >
-> Everything on this page was produced by the **original analysis run**, before the refactor. Four defects were corrected in the code since (see README §5) — the ones that change numbers are marked **⚠️ changed after correction** below. Re-run `python/residential_mobility.ipynb` against the survey file to regenerate this page from the corrected code.
+> Everything on this page was produced by the **original analysis run**, before the refactor. Four defects were corrected in the code since (see README §5) — the ones that change numbers are marked ** changed after correction** below. Re-run `python/residential_mobility.ipynb` against the survey file to regenerate this page from the corrected code.
 >
 > Data: «Социальная структура», 09.03.2025. N = 7,563 respondents; N = 7,552 after removing implausible incomes.
 
@@ -209,7 +209,7 @@ Highest communalities: В107.3 (0.803), В107.15 (0.778), В107.13 (0.769), В10
 
 Factor scores are named `sov_left`, `lib_cons`, `prog_left`, `money`, `merit`.
 
-**⚠️ Note.** The `pattern()` display filter has been corrected (README §5.3). Large **negative** loadings below −0.4 may appear in this matrix after re-running — `f3` on В107.13 is the only one currently visible.
+** Note.** The `pattern()` display filter has been corrected (README §5.3). Large **negative** loadings below −0.4 may appear in this matrix after re-running — `f3` on В107.13 is the only one currently visible.
 
 ### Block B114 — individualism, collectivism, family obligation (19 items)
 
@@ -379,9 +379,9 @@ Cluster 1 is a striking artefact worth investigating: **100 % of its 364 members
 
 <img src="figures/22_logit_forest.png" width="60%">
 
-**⚠️ `home_owner_bin` is the coefficient affected by correction 2** (README §5.2). In the original run the missing codes were folded into "does not own", so the flag mixed in 281 respondents who gave no answer. The odds ratio of 0.706 is the pre-correction estimate and will shift after re-running.
+** `home_owner_bin` is the coefficient affected by correction 2** (README §5.2). In the original run the missing codes were folded into "does not own", so the flag mixed in 281 respondents who gave no answer. The odds ratio of 0.706 is the pre-correction estimate and will shift after re-running.
 
-**⚠️ The forest plot above is the pre-correction version.** In the original it plotted log-odds coefficients while the table reported odds ratios; the corrected function puts both on the odds-ratio scale.
+** The forest plot above is the pre-correction version.** In the original it plotted log-odds coefficients while the table reported odds ratios; the corrected function puts both on the odds-ratio scale.
 
 **Direction of the effects.** Ownership of the dwelling is associated with *lower* odds of being hypermobile (OR 0.71), and so is financial satisfaction (0.94); age, education, willingness to change one's life and being male are associated with *higher* odds. Income is statistically indistinguishable from 1 in practical terms — the effect is significant only because N is large.
 
@@ -389,7 +389,7 @@ Cluster 1 is a striking artefact worth investigating: **100 % of its 364 members
 
 ### VIF diagnostics
 
-**⚠️ Recomputed after correction 4** (README §5.4) — the values below were produced on the raw columns rather than on the model design matrix, so they do not correspond to any estimated coefficient. The corrected version builds the design matrix from the model formula; expect different (and lower) values.
+** Recomputed after correction 4** (README §5.4) — the values below were produced on the raw columns rather than on the model design matrix, so they do not correspond to any estimated coefficient. The corrected version builds the design matrix from the model formula; expect different (and lower) values.
 
 | Variable | VIF (original, on raw columns) |
 | --- | --- |
