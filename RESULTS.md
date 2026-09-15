@@ -140,6 +140,15 @@ Share of hypermobile respondents within each category. For ordered variables the
 <img src="figures/06_share_by_education.png" width="49%"> <img src="figures/10_share_by_willpower.png" width="49%">
 <img src="figures/07_share_by_fin_satisfaction.png" width="49%"> <img src="figures/12_share_by_ownership.png" width="49%">
 
+### Remaining bivariate figures
+
+Each panel shows the share of hypermobile respondents by category (left) and the distribution of the variable across the two mobility types (right).
+
+<img src="figures/04_share_by_settlement_type.png" width="49%"> <img src="figures/05_share_by_religiosity.png" width="49%">
+<img src="figures/08_share_by_fin_expectation.png" width="49%"> <img src="figures/09_share_by_fin_group.png" width="49%">
+<img src="figures/11_share_by_housing.png" width="49%"> <img src="figures/13_share_by_children.png" width="49%">
+<img src="figures/14_share_by_employment.png" width="49%"> <img src="figures/15_share_by_occupation.png" width="49%">
+
 ### Occupation (ISCO-08 unit groups, n > 15)
 
 Only the ten groups with the highest share of hypermobile respondents. Groups with fewer than 16 respondents are excluded — several of these are based on ~20 people, so read them as leads rather than estimates.
