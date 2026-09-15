@@ -407,16 +407,3 @@ Cluster 1 is a striking artefact worth investigating: **100 % of its 364 members
 | personal_income | 1.24 |
 
 Values of 8–11 for six variables that share no substantive overlap are the signature of a computation on the wrong matrix in which categorical variables entered as single numeric codes. Do not interpret them as evidence of multicollinearity.
-
----
-
-## 7. What is not in this analysis
-
-Listed so that the gaps are visible:
-
-* **No sampling weights**, so all shares are sample statistics.
-* **No causal identification** — the design is cross-sectional and mobility is measured retrospectively.
-* **No distinction between voluntary and forced moves.** Eviction, family relocation and a career move are coded identically in `all_reloc`. This is the single largest conceptual limitation of the outcome variable.
-* **Income is measured at one point in time** (2025), while moves are accumulated over the whole life course — a temporal mismatch that plausibly explains why income does not predict mobility.
-* **The "difficult to answer" category is discarded rather than modelled.** If non-response is systematic (and for income and financial satisfaction it usually is), complete-case estimation is biased.
-* **No comparison with the 2015 wave**, although the file was available (README §6.5).
