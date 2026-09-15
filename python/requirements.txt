@@ -1,0 +1,25 @@
+# Python dependencies for residential_mobility.ipynb
+#
+# These are the packages the pipeline imports. Minimum versions are declared
+# rather than exact pins: the original analysis ran on Python 3.11
+# (Anaconda), and locking versions without a recorded environment would be
+# guesswork. Once you have run the notebook locally, replace this file with the
+# output of `pip freeze` so the repository records a reproducible environment.
+#
+#   pip freeze > requirements.txt
+
+pyreadstat>=1.2          # read SPSS .sav files with their metadata
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+statsmodels>=0.14        # logistic regression, contingency tables, VIF
+patsy>=0.5               # design matrices for the VIF diagnostics
+scikit-learn>=1.3        # MinMaxScaler
+factor_analyzer>=0.5     # principal-component factor analysis
+seaborn>=0.13
+matplotlib>=3.7
+stargazer>=0.1.5         # publication-style regression tables
+pysummaries              # stratified "table one" and HTML report tables
+                         # https://genentech.github.io/pysummaries/
+
+jupyterlab>=4.0          # to run the notebook

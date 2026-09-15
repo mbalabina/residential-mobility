@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------------------
+# Survey microdata must never be committed to this repository.
+# See README, "Data and ethics".
+# ---------------------------------------------------------------------------
+data/
+*.sav
+*.por
+*.dta
+*.rds
+*.rdata
+*.rda
+*.feather
+*.parquet
+
+# Derived respondent-level extracts
+posts_coded.xlsx
+*.xlsx
+exog*.csv
+*-extract.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
